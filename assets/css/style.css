@@ -1,0 +1,22 @@
+.navbar{
+    background-color: black;
+    color: blue;
+}
+.fondo{
+    background-image: url(https://images5.alphacoders.com/614/614955.png);
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    color:blue;
+}   
+.row{
+    display: flex;
+    padding: 10px;
+}
+form{
+    display: flex;
+}
+
+.formulario{
+    text-align: center;
+}

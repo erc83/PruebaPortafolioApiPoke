@@ -15,34 +15,37 @@
      
   </head>
   <body>
+    <div Class='fondo'>
       <!-- As a heading -->
-    <nav class="navbar navbar-light bg-light container">
+      <nav class="navbar navbar-light bg-light container cover">
         <a class="navbar-brand" href="#">
-            <img src="assets/img/pikachu.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            <img src="assets/img/pikachu.jpg" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy">
             Jugando con la Pokedex a través de Números</a>
-    </nav>
-    <div class="container">
-        <form class="form-inline">
+      </nav>
+      <div class="row">
+        <form class="form-inline container cover">
             <div class="form-group mb-2">
-                <label for="staticEmail2" class="sr-only">Ingrese Num del 1 al 807 Pokemon</label>
+                <label for="staticEmail2" class="sr-only">pokemonn</label>
                 <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Ingrese Num Pokemon">
             </div>
             <div class="form-group mx-sm-3 mb-2">
-                <label for="inputPassword2" class="sr-only"></label>
-                <input type="number" class="form-control" id="pokeId"> 
+                <label for="inputPassword2" class="sr-only">numero pokemon</label>
+                <input type="number" class="form-control" id="pokeId" placeholder="1 al 893"> 
             </div>
             <button type="submit" class="btn btn-primary mb-2">Consultar</button>
-        <link rel="stylesheet" href="assets/css/style.css">
-        </form>
-        <div class="container">
-          <div class="col-sm-6">
-            <h2 id='name'></h2>
-            <img src="" alt="">
-            <p id="weight"></p>
+            <link rel="stylesheet" href="assets/css/style.css">
+
+          </form>
+          <div class="container">
+            <div class="col-6">
+              <h2 id='name'></h2>
+              <img src="" alt="">
+              <p id="weight"></p>
+            </div>
+            <div class="col-6" id="chartContainer" style="height: 250px; width: 50%;"></div>
+            <!--<div id="chartContainer" style="height: 370px; width: 100%;"></div>-->
           </div>
-          <div class="col-sm-6" id="chartContainer">
-          </div>
-        </div>
+      </div>
     </div>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
     <script src="assets/js/script.js" ></script>
